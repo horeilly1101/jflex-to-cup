@@ -1,0 +1,17 @@
+/* The code for our language */
+
+// NOTE: there is no need for parser, init, next_token, or any other
+// specifications when using the given jflex configurations. That is
+// all provided by %cup.
+
+/* Terminals (tokens returned by the scanner). */
+// e.g. terminal                        PLUS;
+// e.g. terminal Integer                NUMBER;
+
+/* Non terminals */
+// e.g. non terminal Integer            expr;
+
+/* Grammar Definition */
+// e.g. expr    ::= expr:e PLUS NUMBER:n        {: RESULT = e + n :}
+// e.g.         | NUMBER:n                      {: RESULT = n; :}
+// e.g.         ;
