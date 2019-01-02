@@ -12,6 +12,6 @@
 // e.g. non terminal Integer            expr;
 
 /* Grammar Definition */
-// e.g. expr    ::= expr:e PLUS NUMBER:n        {: RESULT = e + n :}
+// e.g. expr    ::= expr:e PLUS NUMBER:n        {: RESULT = e + n; :}
 // e.g.         | NUMBER:n                      {: RESULT = n; :}
 // e.g.         ;
