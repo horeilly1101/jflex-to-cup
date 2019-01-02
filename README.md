@@ -6,14 +6,12 @@ You can download the jflex compiler [here](http://www.jflex.de/download.html), a
 the file during development), but you'll need the following to use CUP:
 
 ```xml
-<myxml>
-    <!-- https://mvnrepository.com/artifact/com.github.vbmacher/java-cup -->
-    <dependency>
-        <groupId>com.github.vbmacher</groupId>
-        <artifactId>java-cup</artifactId>
-        <version>11b</version>
-    </dependency>
-</myxml>
+<!-- https://mvnrepository.com/artifact/com.github.vbmacher/java-cup -->
+<dependency>
+    <groupId>com.github.vbmacher</groupId>
+    <artifactId>java-cup</artifactId>
+    <version>11b</version>
+</dependency>
 ```
 
 ## Compilation
