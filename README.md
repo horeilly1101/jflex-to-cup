@@ -5,12 +5,16 @@ A starting place for creating a parser with jflex and CUP
 You can download the jflex compiler [here](http://www.jflex.de/download.html), and you can download the CUP parser [here](http://www2.cs.tum.edu/projects/cup/). You probably won't need to install jflex with Maven (as you only need to compile
 the file during development), but you'll need the following to use CUP:
 
-<!-- https://mvnrepository.com/artifact/com.github.vbmacher/java-cup -->
-<dependency>
-    <groupId>com.github.vbmacher</groupId>
-    <artifactId>java-cup</artifactId>
-    <version>11b</version>
-</dependency>
+```xml
+<myxml>
+    <!-- https://mvnrepository.com/artifact/com.github.vbmacher/java-cup -->
+    <dependency>
+        <groupId>com.github.vbmacher</groupId>
+        <artifactId>java-cup</artifactId>
+        <version>11b</version>
+    </dependency>
+</myxml>
+```
 
 ## Compilation
 To compile your jflex file, navigate to `jflex-1.7.0/bin` (in Finder) and then double click on the file named jflex. Here, you just type in the filepaths it asks for, and it will compile your file for you.
