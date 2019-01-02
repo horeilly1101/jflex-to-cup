@@ -2,7 +2,7 @@
 
 // NOTE: there is no need to write any code to connect with a scanner.
 // The %cup in the jflex file handles all of this for you. The only
-// job left is the construct the grammar.
+// job left is to construct the grammar.
 
 /* Terminals (tokens returned by the scanner). */
 // e.g. terminal                        PLUS;
